@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+checkpoints/
+
+# Training outputs
+*.json
+*.log
+
+# Datasets and images (not distributed)
+data/
+datasets/
+images/
+*.zip
+*.tar.gz
+*.tar
+fake/
+real/
+real_ffhq*/
+fake-*/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code local files
+.claude/
+DECISIONS.md
+EXECUTION_LOG.md
+TO_CONTINUE.md
